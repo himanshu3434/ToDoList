@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 
 
-mongoose.connect("mongodb+srv://himanshu_y34:"+encodeURIComponent('chekssle#$4352')+"@cluster0.myzfian.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://himanshu_y34:"+encodeURIComponent('chekssle#$4352')+"@cluster1.bmlcaic.mongodb.net/todolistDB");
 //creating schema
 
 const itemschema={name:String};
